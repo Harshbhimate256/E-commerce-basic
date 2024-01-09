@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <style>
+        .menu{
+            display: flex;
+            gap: 100px;
+            background-image: linear-gradient(#950740, #c3073f);
+            justify-content: space-around;
+            margin-bottom: 2rem;
+            border-radius: 10px;
+        }
+        .item a{
+            color: #950740;
+            text-decoration: none;
+            font-size: 25px;
+        }
+        .menu button {
+            background-color: #950740; /* Red */
+            color: #fff;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+    }
+        .menu button:hover {
+            color: #4e4e50;
+            transition: .4s;
+        }
+    </style>
+</head>
+<body>
+    <div class="menu">
+        <div class="item">
+            <a href="home.php">
+                <button>Upload Product</button></a>
+        </div>
+        <div class="item">
+            <a href="view.php">
+                <button>View Products</button></a>
+        </div>
+        <div class="item">
+            <a href="view_order.php">
+                <button>View Orders</button></a>
+        </div>
+    </div>
+</body>
+</html>

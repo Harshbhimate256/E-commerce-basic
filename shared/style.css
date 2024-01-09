@@ -1,0 +1,21 @@
+body{
+    background-image: url(body-bg.jpg);
+}
+
+.container{
+    border: 1px dotted black;
+    margin-top: 20rem;
+    width: 30%;
+    backdrop-filter: blur(10px);
+    height: 20rem;
+    border-radius: 30px;
+    background-repeat: no-repeat;
+}
+.head{
+    font-style: italic;
+    text-align: center;
+    font-size:30px;
+    background: -webkit-linear-gradient(#66fcf1, #45a29e);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
